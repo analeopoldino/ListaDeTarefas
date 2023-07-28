@@ -7,7 +7,7 @@ Este é um projeto de lista de tarefas simples utilizando HTML, CSS e JavaScript
 ## Demo
 
 Link do site para utilização    
-![Site]()
+![Site](/imagens/to-do-list.png)(https://analeopoldino.github.io/ListaDeTarefas/)
 
 
 ## Usabilidade
