@@ -20,7 +20,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url(/imagens/background.jpg);
+  background: url(imagens/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: brightness(0.5);
