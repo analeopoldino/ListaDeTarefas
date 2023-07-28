@@ -1,0 +1,179 @@
+/* Importação da fonte */
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap");
+
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Blinker", sans-serif;
+  outline: none;
+}
+
+html,
+body {
+  overflow-y: auto;
+}
+
+/* Estilos do corpo */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(/imagens/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.5);
+}
+
+/* Estilos do contêiner */
+.container {
+  background-color: #c6c6c6;
+  width: 70%;
+  max-width: 900px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 100px auto 100px;
+}
+
+/* Estilos dos botões e campos de entrada */
+.input-task {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.input-task::placeholder {
+  color: #0000008a;
+}
+
+.button-add-task {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #020202;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 0 10px;
+  float: right;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.8s;
+}
+
+.button-add-task:hover {
+  background-color: #0db196;
+}
+
+.button-add-task:active {
+  opacity: 0.6;
+}
+
+/* Estilos das tarefas */
+.list-tasks {
+  width: 100%;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.task {
+  background-color: #000000;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.task-text {
+  flex: 1;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  margin: 10px 15px 10px 15px;
+}
+
+img {
+  height: 25px;
+  margin: auto 10px auto 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img {
+  opacity: 1;
+}
+
+.done-task {
+  background-color: #0db196;
+  text-decoration: line-through 3px #ffffff;
+}
+
+/*MEDIAS QUERY*/
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin: 50px auto 50px;
+  }
+
+  .input-task {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .button-add-task {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px auto 40px;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .task {
+    min-height: 60px;
+  }
+
+  .task-text {
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+}
+
+/* Media query para tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 800px;
+    margin: 80px auto 80px;
+  }
+
+  .input-task {
+    max-width: 70%;
+  }
+
+  .button-add-task {
+    max-width: 150px;
+  }
+
+  .task {
+    min-height: 60px;   
+  }
+
+  .task-text {
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+}
