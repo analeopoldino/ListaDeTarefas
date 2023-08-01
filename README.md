@@ -50,7 +50,7 @@ Agradeço ao criador do vídeo, **Rodolfo Morir**,  pelo excelente conteúdo e p
 
 
 
-## Agradecimentos
+---
 
 Espero que este projeto de lista de tarefas tenha sido útil para você, assim como foi para mim. Através dessa experiência, pude aprofundar meu conhecimento em JavaScript e compreender melhor como criar uma aplicação simples e funcional! 😊
  
