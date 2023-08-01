@@ -49,8 +49,7 @@ Este projeto foi desenvolvido com base em um vídeo tutorial do canal "Rodolfo M
 Agradeço ao criador do vídeo, **Rodolfo Morir**,  pelo excelente conteúdo e pela clareza na explicação dos conceitos  abordados. Este tutorial foi uma referência fundamental para o desenvolvimento desta lista de tarefas e recomendo fortemente para aqueles que desejam aprender mais sobre desenvolvimento web.
 
 
-
-## Agradecimentos
+---
 
 Espero que este projeto de lista de tarefas tenha sido útil para você, assim como foi para mim. Através dessa experiência, pude aprofundar meu conhecimento em JavaScript e compreender melhor como criar uma aplicação simples e funcional! 😊
  
