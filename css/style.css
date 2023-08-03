@@ -1,7 +1,5 @@
-/* Importação da fonte */
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap");
 
-/* Estilos gerais */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +13,6 @@ body {
   overflow-y: auto;
 }
 
-/* Estilos do corpo */
 body {
   margin: 0;
   padding: 0;
@@ -26,7 +23,6 @@ body {
   backdrop-filter: brightness(0.5);
 }
 
-/* Estilos do contêiner */
 .container {
   background-color: #c6c6c6;
   width: 70%;
@@ -36,7 +32,6 @@ body {
   margin: 100px auto 100px;
 }
 
-/* Estilos dos botões e campos de entrada */
 .input-task {
   background-color: #ffffff;
   border: none;
@@ -76,7 +71,6 @@ body {
   opacity: 0.6;
 }
 
-/* Estilos das tarefas */
 .list-tasks {
   width: 100%;
   list-style: none;
@@ -120,8 +114,6 @@ img {
   text-decoration: line-through 3px #ffffff;
 }
 
-/*MEDIAS QUERY*/
-/* Estilos para dispositivos móveis */
 @media screen and (max-width: 767px) {
   .container {
     width: 90%;
@@ -153,7 +145,6 @@ img {
   }
 }
 
-/* Media query para tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 800px;
